@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .menu-sectio{
+            padding-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Coffee Deluxe!</h1>
+        </div>
+        <nav class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    
+        <div class="menu-icon" id="menuIcon">
+            <box-icon name='menu-alt-right'></box-icon>
+        </div>
+    </header>
+
+    <!-- Contact Us Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">Contact Us</h2>
+
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form" data-aos="fade-right">
+                    <h3>Get in Touch</h3>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info" data-aos="fade-left">
+                    <h3>Our Office</h3>
+                    <p><strong>Address:</strong> 123 Urban Street, Johannesburg, South Africa</p>
+                    <p><strong>Email:</strong> contact@coffedeluxe.com</p>
+                    <p><strong>Phone:</strong> +27 123 456 7890</p>
+                    <p><strong>Working Hours:</strong> Mon - Fri: 8:00 AM - 5:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Initialize AOS Animations -->
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+    
+    <!-- Footer Section -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo" data-aos="fade-right">
+                        <h3>Coffee Deluxe!</h3>
+                        <p>Best coffee around the corner.</p>
+                    </div>
+    
+                    <div class="footer-links" data-aos="fade-up">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer-contact" data-aos="fade-left">
+                        <h4>Contact</h4>
+                        <p>Email: contact@coffeedeluxe.com</p>
+                        <p>Phone: +27 123 456 7890</p>
+                        <p>Location: Johannesburg, South Africa</p>
+                    </div>
+                </div>
+    
+                <div class="footer-bottom">
+                    <p>© 2024 Coffee Deluxe!. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    
+</body>
+</html>

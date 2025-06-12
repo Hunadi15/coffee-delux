@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Deluxe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Coffee Deluxe!</h1>
+        </div>
+        <nav class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-icon" id="menuIcon">
+            <box-icon name='menu-alt-right'></box-icon>
+        </div>
+    </header>
+
+    <!-- Landing Section -->
+    <section id="home" class="landing">
+        <div class="content">
+            <h1>Your Daily Grind, Elevated</h1>
+            <p>We brew expertly crafted coffee to fuel your day and foster a cozy community.</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+
+
+    </section>
+    <!-- Add AOS Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured products</h2>
+
+            <div class="project">
+                <img src="cake.jpg" alt="Delicious Cake">
+                <div class="project-info">
+                    <h3>Cakes</h3>
+                    <p>Indulge in our freshly baked cakes, perfectly paired with your favorite coffee.</p>
+                    <a href="#" class="btn">Order</a>
+                </div>
+            </div>
+
+            <div class="project reverse">
+                <img src="scones.jpg" alt="Freshly Baked Scones">
+                <div class="project-info">
+                    <h3>Scones</h3>
+                    <p>Enjoy warm, buttery scones served with jam and cream.</p>
+                    <a href="#" class="btn">Order</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="blackcoffe.jpg" alt="Rich Black Coffee">
+                <div class="project-info">
+                    <h3>Black Coffee</h3>
+                    <p>Savor the bold and aromatic flavors of our premium black coffee.</p>
+                    <a href="#" class="btn">Order</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo" data-aos="fade-right">
+                    <h3>Coffee Deluxe!</h3>
+                    <p>Best coffee around the corner.</p>
+                </div>
+
+                <div class="footer-links" data-aos="fade-up">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact" data-aos="fade-left">
+                    <h4>Contact</h4>
+                    <p>Email: contact@coffeedeluxe.com</p>
+                    <p>Phone: +27 123 456 7890</p>
+                    <p>Location: Johannesburg, South Africa</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2024 Coffee Deluxe!. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize AOS Animations -->
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+    </script>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
